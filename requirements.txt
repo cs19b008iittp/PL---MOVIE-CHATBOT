@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy>=1.10.0
+scikit-learn
+nltk
+gensim
+streamlit
