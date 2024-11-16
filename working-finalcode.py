@@ -21,10 +21,10 @@ TMDB_API_KEY = 'aad48407a8c1adecea9cc23891d3181a'  # Replace with your actual TM
 @st.cache_data
 def load_and_preprocess_data():
     # Load datasets
-    movies_data = pd.read_csv('./data/movies_metadata.csv')
-    link_small = pd.read_csv('./data/links_small.csv')
-    credits = pd.read_csv('./data/credits.csv')
-    keyword = pd.read_csv('./data/keywords.csv')
+    movies_data = pd.read_csv('data/movies_metadata.csv')
+    link_small = pd.read_csv('data/links_small.csv')
+    credits = pd.read_csv('data/credits.csv')
+    keyword = pd.read_csv('data/keywords.csv')
 
     # Data preprocessing
     movies_data = movies_data.drop([19730, 29503, 35587])
